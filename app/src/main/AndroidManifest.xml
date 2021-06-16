@@ -9,12 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab12FirebaseCloudMessaging">
-        <service
-            android:name=".MyService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -24,11 +18,17 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".FirebaseService">
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

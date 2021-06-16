@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Lab12FirebaseCloudMessaging</string>
+    <string name="msg_subscribed">Suscrito al tema Time</string>
+    <string name="msg_subscribe_failed">Ocurrio un error en su suscripcion</string>
+    <string name="msg_unsubscribed">Desuscrito al tema Time</string>
+    <string name="msg_unsubscribe_failed">Ocurrio un error en su desuscripcion</string>
+    <string name="txtDescription">Las notificaciones seran enviadas desde Firebase Cloud Messaging a todos los suscritos al Tema \'Time\', a las 4:00pm todos los dias.</string>
+    <string name="desuscribirse">Desuscribirse</string>
+    <string name="suscribirse">Suscribirse</string>
 </resources>
