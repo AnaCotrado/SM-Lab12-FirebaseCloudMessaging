@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960295951300",
+    "project_id": "lab12-94af6",
+    "storage_bucket": "lab12-94af6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960295951300:android:0831e036cfb01af99ce291",
+        "android_client_info": {
+          "package_name": "com.solmov.lab12firebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960295951300-4f64alhkp33fbr0eovdb9n65ro54jabl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuSMMrE7L70T1fxL1v9XtzVkOYEzkGEiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960295951300-4f64alhkp33fbr0eovdb9n65ro54jabl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
